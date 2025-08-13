@@ -242,5 +242,5 @@ tail -n 50 file.txt
 
 ---
 
-Happy Learning! ✨
+Happy Learning!
 
