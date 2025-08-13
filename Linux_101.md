@@ -1,12 +1,12 @@
-# 🐧 Beginner-Friendly Linux Command Tutorial
+# Beginner-Friendly Linux Command Tutorial
 
 A simple, dynamic tutorial for beginners. Use this as a reference for common Linux file operations, SSH, and basic text processing.
 
 ---
 
-## 🗂️ Section 1: Create and Delete Directories
+## Section 1: Create and Delete Directories
 
-### ✅ Create a directory
+### Create a directory
 
 ```bash
 mkdir my_folder
@@ -24,7 +24,7 @@ Create nested folders:
 mkdir -p parent/child/grandchild
 ```
 
-### ❌ Delete a directory
+### Delete a directory
 
 Delete an empty directory:
 
@@ -46,7 +46,7 @@ rm -rf my_folder
 
 ---
 
-## 📄 Section 2: Create Files
+## Section 2: Create Files
 
 Create an empty file:
 
@@ -68,7 +68,7 @@ echo "New line" >> hello.txt
 
 ---
 
-## 📋 Section 3: List Files (with Time Info)
+## Section 3: List Files (with Time Info)
 
 Basic list:
 
@@ -96,7 +96,7 @@ ls -la
 
 ---
 
-## 📑 Section 4: Copy Files and Directories
+## Section 4: Copy Files and Directories
 
 Copy a file:
 
@@ -112,7 +112,7 @@ cp -r folder1/ folder_copy/
 
 ---
 
-## 🌐 Section 5: SSH into a Remote Server (HPC)
+## Section 5: SSH into a Remote Server (HPC)
 
 Basic SSH:
 
@@ -128,7 +128,7 @@ ssh -X username@hpc.address
 
 ---
 
-## 🔄 Section 6: Copy Files from HPC
+## Section 6: Copy Files from HPC
 
 ### Using `scp`
 
@@ -154,7 +154,7 @@ rsync -av username@hpc.address:/remote/folder/ ./local_folder/
 
 ---
 
-## 📏 Section 7: Check Number of Lines in a File
+## Section 7: Check Number of Lines in a File
 
 ```bash
 wc -l file.txt
@@ -162,7 +162,7 @@ wc -l file.txt
 
 ---
 
-## 🔎 Section 8: Find a File in a Directory
+## Section 8: Find a File in a Directory
 
 Search by exact name:
 
@@ -178,7 +178,7 @@ find . -name "*.txt"
 
 ---
 
-## 🔍 Section 9: Search for String in File Using `grep`
+## Section 9: Search for String in File Using `grep`
 
 Basic search:
 
@@ -200,7 +200,7 @@ grep -n "keyword" file.txt
 
 ---
 
-## 🔢 Section 10: Count Lines, Words, and Characters
+## Section 10: Count Lines, Words, and Characters
 
 ```bash
 wc file.txt
@@ -214,7 +214,7 @@ wc -l file.txt
 
 ---
 
-## 📌 Section 11: View Beginning or End of a File
+## Section 11: View Beginning or End of a File
 
 First N lines (default 10):
 
